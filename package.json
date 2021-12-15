@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-disable-uimenucontroller",
+  "version": "0.0.1",
+  "description": "An iOS Cordova plugin that disables the UIMenuController inside of WKWebView's.",
+  "cordova": {
+    "id": "cordova-plugin-disable-uimenucontroller",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meta-craft/cordova-plugin-disable-uimenucontroller.git"
+  },
+  "keywords": [
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=9.0.0"
+    }
+  ],
+  "author": "Fábio Bernardo <fabio@meta-craft.com> (https://github.com/meta-craft)",
+  "bugs": {
+    "url": "https://github.com/meta-craft/cordova-plugin-disable-uimenucontroller/issues"
+  },
+  "homepage": "https://github.com/meta-craft/cordova-plugin-disable-uimenucontroller"
+}
