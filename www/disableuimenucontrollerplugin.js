@@ -1,11 +1,11 @@
 function DisableUIMenuControllerPlugin() {}
 
 DisableUIMenuControllerPlugin.prototype.activate = function(successCallback, errorCallback) {
-  cordova.exec(successCallback, errorCallback, 'DisableUIMenuControllerPlugin', 'activate');
+  cordova.exec(successCallback, errorCallback, 'DisableUIMenuController', 'activate');
 }
 
 DisableUIMenuControllerPlugin.prototype.deactivate = function(successCallback, errorCallback) {
-  cordova.exec(successCallback, errorCallback, 'DisableUIMenuControllerPlugin', 'deactivate');
+  cordova.exec(successCallback, errorCallback, 'DisableUIMenuController', 'deactivate');
 }
 
 DisableUIMenuControllerPlugin.install = function() {
