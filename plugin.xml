@@ -18,7 +18,13 @@
     </js-module>
 
     <platform name="ios">
-        <source-file src="src/ios/WKWebView+DisableUIMenuControllerPlugin.m"/>
+        <config-file target="config.xml" parent="/*">
+			<feature name="DisableUIMenuController">
+				<param name="ios-package" value="DisableUIMenuController"/>
+			</feature>
+		</config-file>
+        <header-file src="src/ios/DisableUIMenuController.h"/>
+        <source-file src="src/ios/DisableUIMenuController.m"/>
         <framework src="WebKit.framework" />
     </platform>
 </plugin>
