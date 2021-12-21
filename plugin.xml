@@ -8,10 +8,14 @@
     <keywords>cordova,ios,webview,menucontroller</keywords>
     <repo>https://github.com/meta-craft/cordova-plugin-disable-uimenucontroller</repo>
     <issue>https://github.com/meta-craft/cordova-plugin-disable-uimenucontroller/issues</issue>
-  
+
     <engines>
         <engine name="cordova" version=">=9.0.0"/>
     </engines>
+
+    <js-module src="www/disableuimenucontrollerplugin.js" name="disableUIMenuControllerPlugin">
+        <clobbers target="window.plugins.disableUIMenuControllerPlugin" />
+    </js-module>
 
     <platform name="ios">
         <source-file src="src/ios/WKWebView+DisableUIMenuControllerPlugin.m"/>
